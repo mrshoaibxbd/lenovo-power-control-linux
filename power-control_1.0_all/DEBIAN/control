@@ -1,0 +1,6 @@
+Package: power-control
+Version: 1.0
+Architecture: all
+Maintainer: Md Shoaib Mahmud
+Depends: python3, python3-tk, policykit-1
+Description: A native GUI toggle for the Lenovo Ideapad Slim 3i battery conservation mode.

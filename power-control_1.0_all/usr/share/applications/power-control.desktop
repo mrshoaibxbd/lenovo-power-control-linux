@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Power Control
+Comment=Toggle Lenovo Conservation Mode
+Exec=power-control
+Icon=power-control
+Terminal=false
+Type=Application
+Categories=Utility;System;
