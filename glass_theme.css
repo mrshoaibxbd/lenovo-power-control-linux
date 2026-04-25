@@ -1,0 +1,89 @@
+window.glass-window {
+    background-image: linear-gradient(135deg, #0f141e 0%, #1a2130 50%, #0f141e 100%);
+    border-radius: 12px;
+    border: 1px solid #2d3748;
+}
+
+#header-box {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+    padding: 10px;
+    border-bottom: 1px solid #2d3748;
+}
+
+#title-label {
+    color: #00f2ff;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+/* Reduced margin and padding for tighter data grid */
+#data-grid {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.data-key {
+    color: #8892b0;
+    font-family: monospace;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.data-value {
+    color: #e6f1ff;
+    font-family: monospace;
+    font-size: 13px;
+    font-weight: bold;
+}
+
+/* Reduced top margin to remove the blank space */
+#toggle-container {
+    margin-top: 10px;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+#toggle-label {
+    color: #ffffff;
+    font-size: 14px;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+/* Styling for the Gtk.Switch */
+switch {
+    border-radius: 20px;
+    border: 2px solid #2d3748;
+    background-color: #0d1117; /* Dark background of the switch trough */
+}
+
+/* Trough (background) styling when the switch is ON */
+switch.active {
+    background-color: #00ff66; /* Bright Green from your example */
+    border: 2px solid #00ff66;
+}
+
+/* Slider (button) styling when the switch is ON */
+switch.active slider {
+    background-color: #ffffff;
+}
+
+/* Trough (background) styling when the switch is OFF */
+switch.inactive {
+    background-color: #0d1117; /* Darker background */
+    border: 2px solid #ff3333; /* Red border for emphasis */
+}
+
+/* Slider (button) styling when the switch is OFF */
+switch.inactive slider {
+    background-color: #d4d4d4; /* Gray for inactive state */
+}
+
+#dev-info {
+    color: #4a5568;
+    font-size: 10px;
+    margin-bottom: 10px;
+}
